@@ -1,0 +1,37 @@
+name: Update NAB count data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh NAB count snapshot
+        run: python3 scripts/refresh_pollen.py
+
+      - name: Commit updated count snapshot
+        run: |
+          if git diff --quiet --exit-code data/pollen-latest.json; then
+            echo "No count change to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pollen-latest.json
+          git commit -m "Update NAB count snapshot"
+          git push

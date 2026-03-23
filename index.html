@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tree Pollen Outlook</title>
+    <meta
+      name="description"
+      content="A free current-count tree pollen site that maps home and work to the nearest National Allergy Bureau station."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere atmosphere-a"></div>
+    <div class="atmosphere atmosphere-b"></div>
+    <main class="page-shell">
+      <header class="topbar">
+        <div class="brand-copy">
+          <p class="eyebrow">Free Current Counts</p>
+          <h1>Find the nearest pollen count to home and work.</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          Dark mode
+        </button>
+      </header>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="lede">
+            This version uses free, current National Allergy Bureau station
+            counts instead of forecasts. Enter home and work, and the site will
+            map each to the nearest reporting station.
+          </p>
+          <div class="status-row">
+            <span id="mode-badge" class="badge">Loading data</span>
+            <span id="refresh-badge" class="badge badge-subtle">Checking freshness</span>
+          </div>
+          <p id="methodology-note" class="methodology-note"></p>
+        </div>
+        <aside id="hero-panel" class="panel hero-panel severity-0">
+          <p class="panel-kicker">Current tree picture</p>
+          <div class="score-block">
+            <span id="summary-value" class="score-value">--</span>
+            <div>
+              <h2 id="summary-heading" class="score-heading">Loading</h2>
+              <p id="summary-context" class="score-context"></p>
+            </div>
+          </div>
+          <p id="summary-copy" class="hero-summary"></p>
+          <div class="trend-box">
+            <p class="trend-label">Home vs work</p>
+            <h3 id="compare-headline">Loading</h3>
+            <p id="compare-detail" class="trend-detail"></p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="panel control-panel">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Locations</p>
+            <h2>Set home and work</h2>
+          </div>
+          <p class="section-copy">
+            Location search uses OpenStreetMap Nominatim. Counts come from the
+            nearest mapped AAAAI National Allergy Bureau station.
+          </p>
+        </div>
+
+        <form id="location-form" class="location-form">
+          <div class="field-grid">
+            <label class="field">
+              <span class="field-label">Home address or zip</span>
+              <input
+                id="home-input"
+                class="text-input"
+                name="home"
+                type="text"
+                placeholder="Redwood City, CA or 94063"
+                autocomplete="street-address"
+              />
+            </label>
+            <label class="field">
+              <span class="field-label">Work address or zip</span>
+              <input
+                id="work-input"
+                class="text-input"
+                name="work"
+                type="text"
+                placeholder="Mission Bay, San Francisco, CA or 94158"
+                autocomplete="street-address"
+              />
+            </label>
+          </div>
+
+          <div class="button-row">
+            <button id="refresh-button" class="primary-button" type="submit">
+              Update counts
+            </button>
+            <button id="reset-button" class="ghost-button" type="button">
+              Reset defaults
+            </button>
+          </div>
+
+          <p class="field-caption">
+            These are observed counts from the nearest station, not an
+            address-level forecast. The count date on each card matters.
+          </p>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+          <p id="location-summary" class="location-summary"></p>
+        </form>
+      </section>
+
+      <section class="panel counts-panel">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Current Counts</p>
+            <h2>Nearest station now</h2>
+          </div>
+          <p id="counts-copy" class="section-copy"></p>
+        </div>
+        <div id="counts-grid" class="counts-grid"></div>
+      </section>
+
+      <section class="guidance-grid">
+        <article class="panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Action Plan</p>
+              <h2>What to do with today’s counts</h2>
+            </div>
+          </div>
+          <ul id="action-list" class="action-list"></ul>
+        </article>
+
+        <article class="panel">
+          <div class="section-head compact">
+            <div>
+              <p class="section-kicker">Pattern</p>
+              <h2>How to read the numbers</h2>
+            </div>
+          </div>
+          <p id="pattern-copy" class="pattern-copy"></p>
+          <ul class="fact-list">
+            <li>Each card shows the nearest mapped NAB station, not a block-by-block reading.</li>
+            <li>Station counts are observed counts, so dates can lag during off-season or sparse reporting periods.</li>
+            <li>Tree and grass pollen are often highest in the evening during spring and summer.</li>
+            <li>If symptoms keep breaking through, an allergist can help tune meds or immunotherapy.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel sources-panel">
+        <div class="section-head compact">
+          <div>
+            <p class="section-kicker">Sources</p>
+            <h2>Counts, lookup, and guidance</h2>
+          </div>
+        </div>
+        <div id="sources-list" class="sources-list"></div>
+      </section>
+    </main>
+
+    <template id="result-card-template">
+      <article class="result-card panel severity-0">
+        <div class="card-top">
+          <div>
+            <p class="card-kicker"></p>
+            <h3 class="card-title"></h3>
+          </div>
+          <span class="day-chip"></span>
+        </div>
+        <p class="resolved-line"></p>
+        <p class="station-line"></p>
+        <div class="card-score">
+          <span class="card-score-value"></span>
+          <div>
+            <p class="card-category"></p>
+            <p class="card-driver"></p>
+          </div>
+        </div>
+        <p class="card-description"></p>
+        <div class="metric-grid">
+          <div class="metric-cell">
+            <span>Grass</span>
+            <strong class="grass-reading"></strong>
+          </div>
+          <div class="metric-cell">
+            <span>Weed</span>
+            <strong class="weed-reading"></strong>
+          </div>
+          <div class="metric-cell">
+            <span>Mold</span>
+            <strong class="mold-reading"></strong>
+          </div>
+          <div class="metric-cell">
+            <span>Count Age</span>
+            <strong class="age-reading"></strong>
+          </div>
+        </div>
+        <div class="top-block">
+          <p class="field-label">Top tree allergens</p>
+          <ul class="top-allergen-list"></ul>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
