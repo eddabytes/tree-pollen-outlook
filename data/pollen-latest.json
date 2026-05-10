@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "source": "aaaai_nab",
-  "fetchedAt": "2026-05-09T14:19:25.915849+00:00",
+  "fetchedAt": "2026-05-10T14:21:53.947139+00:00",
   "stationCount": 73,
   "stations": [
     {
@@ -1095,9 +1095,9 @@
       "longitude": -66.03106509999999,
       "shortLabel": "Caguas, PR",
       "latestCount": {
-        "id": "0259c5b0-aa12-4ac5-a245-58a9da6ec6c0",
-        "date": "2026-05-08",
-        "comment": "Presencia de trazas de polvo del Sahara/Africa. Presence of traces of Saharan/African dust. Presencia de holl\u00edn. Presence of soot. ",
+        "id": "3f18de62-770d-46f9-b8d5-75e6a1ba062c",
+        "date": "2026-05-09",
+        "comment": "Presencia de polvo y holl\u00edn. Presence of dust and soot. ",
         "weatherNotes": "",
         "categories": {
           "tree": {
@@ -1119,7 +1119,7 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 31240,
+            "rawValue": 25392,
             "level": "Moderate",
             "severity": 2,
             "counted": true
@@ -1128,21 +1128,21 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 21176,
+            "value": 17852,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 5017,
+            "value": 2493,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 1600,
+            "value": 1170,
             "label": "Cladosporium",
             "scientificName": "Cladosporium",
             "family": ""
@@ -1150,36 +1150,36 @@
           {
             "category": "MOLD",
             "value": 954,
-            "label": "Any identified fungi not counted elsewhere",
-            "scientificName": "Other Fungi",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 800,
             "label": "Basidiomycete/Basidiospore",
             "scientificName": "Ganoderma",
             "family": "Polyporaceae/Basidiomycota"
           },
           {
             "category": "MOLD",
-            "value": 462,
+            "value": 862,
             "label": "Penicillium/Aspergillus",
             "scientificName": "Penicillium / Aspergillus",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 339,
+            "value": 708,
             "label": "Ascomycete/Ascospore",
             "scientificName": "Diatrypaceae",
             "family": "Diatrypaceae/Ascomycota"
           },
           {
             "category": "MOLD",
-            "value": 337,
-            "label": "All other mold not identified",
-            "scientificName": "Unidentified Fungi",
+            "value": 554,
+            "label": "Any identified fungi not counted elsewhere",
+            "scientificName": "Other Fungi",
+            "family": ""
+          },
+          {
+            "category": "TREE",
+            "value": 308,
+            "label": "All identified tree pollen not counted elsewhere",
+            "scientificName": "Other Tree Pollen",
             "family": ""
           }
         ],
@@ -5783,22 +5783,22 @@
       "longitude": -98.5708283,
       "shortLabel": "San Antonio (Station 3), TX",
       "latestCount": {
-        "id": "1e03a11b-2b94-411d-8aa7-61e2a1b9c85c",
-        "date": "2026-05-09",
+        "id": "f20d76b8-8528-4a37-b87d-3662059dcd05",
+        "date": "2026-05-10",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": null,
-            "level": "Not Counted",
+            "rawValue": -1,
+            "level": "Not Present",
             "severity": 0,
-            "counted": false
+            "counted": true
           },
           "grass": {
-            "rawValue": null,
-            "level": "Not Counted",
-            "severity": 0,
-            "counted": false
+            "rawValue": 10,
+            "level": "Low",
+            "severity": 1,
+            "counted": true
           },
           "weed": {
             "rawValue": null,
@@ -5807,19 +5807,26 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 230,
-            "level": "Low",
-            "severity": 1,
+            "rawValue": 750,
+            "level": "Moderate",
+            "severity": 2,
             "counted": true
           }
         },
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 230,
+            "value": 750,
             "label": "Any identified fungi not counted elsewhere",
             "scientificName": "Other Fungi",
             "family": ""
+          },
+          {
+            "category": "GRASS",
+            "value": 10,
+            "label": "Grass Family, all types",
+            "scientificName": "Gramineae / Poaceae",
+            "family": "Gramineae / Poaceae"
           }
         ],
         "topTreeAllergens": []
@@ -6182,9 +6189,9 @@
       "longitude": -66.1057355,
       "shortLabel": "San Juan, PR",
       "latestCount": {
-        "id": "986829f5-d266-4f0e-b25a-380a658dff62",
-        "date": "2026-05-08",
-        "comment": "Presencia de trazas polvo del Sahara/Africa. Presence of traces of Saharan/African dust. Presencia de holl\u00edn. Presence of soot. ",
+        "id": "5a3effe4-24c3-45a6-b453-792a4540107a",
+        "date": "2026-05-09",
+        "comment": "Presencia de holl\u00edn y polvo fugitivo. Presence of soot and fugitive dust. ",
         "weatherNotes": "",
         "categories": {
           "tree": {
@@ -6206,7 +6213,7 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 10434,
+            "rawValue": 5910,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -6215,58 +6222,58 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 5479,
+            "value": 3509,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 2308,
+            "value": 862,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 739,
+            "value": 523,
             "label": "Basidiomycete/Basidiospore",
             "scientificName": "Ganoderma",
             "family": "Polyporaceae/Basidiomycota"
           },
           {
             "category": "MOLD",
-            "value": 646,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 369,
-            "label": "Ascomycete/Ascospore",
-            "scientificName": "Diatrypaceae",
-            "family": "Diatrypaceae/Ascomycota"
-          },
-          {
-            "category": "MOLD",
-            "value": 338,
-            "label": "All other mold not identified",
-            "scientificName": "Unidentified Fungi",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 308,
+            "value": 492,
             "label": "Penicillium/Aspergillus",
             "scientificName": "Penicillium / Aspergillus",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 185,
+            "value": 154,
+            "label": "Cladosporium",
+            "scientificName": "Cladosporium",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 154,
             "label": "Any identified fungi not counted elsewhere",
             "scientificName": "Other Fungi",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 123,
+            "label": "Basidiomycete/Basidiospore",
+            "scientificName": "Coprinus-type",
+            "family": "Coprinaceae/Basidiomycota"
+          },
+          {
+            "category": "TREE",
+            "value": 92,
+            "label": "All identified tree pollen not counted elsewhere",
+            "scientificName": "Other Tree Pollen",
             "family": ""
           }
         ],
