@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "source": "aaaai_nab",
-  "fetchedAt": "2026-05-10T14:21:53.947139+00:00",
+  "fetchedAt": "2026-05-11T16:09:06.325141+00:00",
   "stationCount": 73,
   "stations": [
     {
@@ -1095,15 +1095,15 @@
       "longitude": -66.03106509999999,
       "shortLabel": "Caguas, PR",
       "latestCount": {
-        "id": "3f18de62-770d-46f9-b8d5-75e6a1ba062c",
-        "date": "2026-05-09",
-        "comment": "Presencia de polvo y holl\u00edn. Presence of dust and soot. ",
+        "id": "b9b5f5d3-6a28-4216-87b8-7bd6f4cbac8c",
+        "date": "2026-05-10",
+        "comment": "Presencia de holl\u00edn y polvo. Presence of soot and dust. ",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 308,
-            "level": "High",
-            "severity": 3,
+            "rawValue": 92,
+            "level": "Moderate",
+            "severity": 2,
             "counted": true
           },
           "grass": {
@@ -1119,7 +1119,7 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 25392,
+            "rawValue": 27732,
             "level": "Moderate",
             "severity": 2,
             "counted": true
@@ -1128,65 +1128,65 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 17852,
-            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
-            "scientificName": "Basidiospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 2493,
+            "value": 11388,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 1170,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
+            "value": 6433,
+            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
+            "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 954,
-            "label": "Basidiomycete/Basidiospore",
-            "scientificName": "Ganoderma",
-            "family": "Polyporaceae/Basidiomycota"
-          },
-          {
-            "category": "MOLD",
-            "value": 862,
-            "label": "Penicillium/Aspergillus",
-            "scientificName": "Penicillium / Aspergillus",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 708,
+            "value": 5255,
             "label": "Ascomycete/Ascospore",
             "scientificName": "Diatrypaceae",
             "family": "Diatrypaceae/Ascomycota"
           },
           {
             "category": "MOLD",
-            "value": 554,
+            "value": 2339,
+            "label": "Penicillium/Aspergillus",
+            "scientificName": "Penicillium / Aspergillus",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 1016,
+            "label": "Cladosporium",
+            "scientificName": "Cladosporium",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 431,
             "label": "Any identified fungi not counted elsewhere",
             "scientificName": "Other Fungi",
             "family": ""
           },
           {
-            "category": "TREE",
-            "value": 308,
-            "label": "All identified tree pollen not counted elsewhere",
-            "scientificName": "Other Tree Pollen",
+            "category": "MOLD",
+            "value": 283,
+            "label": "All other mold not identified",
+            "scientificName": "Unidentified Fungi",
             "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 185,
+            "label": "Basidiomycete/Basidiospore",
+            "scientificName": "Ganoderma",
+            "family": "Polyporaceae/Basidiomycota"
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 308,
+            "value": 92,
             "label": "All identified tree pollen not counted elsewhere",
             "scientificName": "Other Tree Pollen",
             "family": ""
@@ -1358,19 +1358,19 @@
       "longitude": -87.8423372,
       "shortLabel": "Chicago Area (Melrose Park), IL",
       "latestCount": {
-        "id": "95920b9f-84c1-4236-aeca-c41007a30080",
-        "date": "2026-05-08",
+        "id": "bebee1ab-61c4-4cea-af1c-fd2e0475ad70",
+        "date": "2026-05-11",
         "comment": "Pollen count by Dr. Rachna Shah",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 149,
+            "rawValue": 394,
             "level": "High",
             "severity": 3,
             "counted": true
           },
           "grass": {
-            "rawValue": 25,
+            "rawValue": 35,
             "level": "High",
             "severity": 3,
             "counted": true
@@ -1382,7 +1382,7 @@
             "counted": true
           },
           "mold": {
-            "rawValue": 4828,
+            "rawValue": 2332,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -1391,117 +1391,117 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 3039,
+            "value": 2121,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
-            "category": "MOLD",
-            "value": 777,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 504,
-            "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
-            "scientificName": "Smuts / Myxomycetes",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 204,
-            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
-            "scientificName": "Basidiospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 135,
-            "label": "Basidiomycete/Basidiospore",
-            "scientificName": "Coprinus-type",
-            "family": "Coprinaceae/Basidiomycota"
-          },
-          {
-            "category": "MOLD",
-            "value": 101,
-            "label": "Rusts: includes Puccina, Triphragmium, Gymnosporangium,Urediniospores, et al.",
-            "scientificName": "Rusts",
-            "family": ""
-          },
-          {
             "category": "TREE",
-            "value": 43,
-            "label": "Maple, Box elder",
-            "scientificName": "Acer",
-            "family": "Aceraceae (maple family)"
-          },
-          {
-            "category": "MOLD",
-            "value": 34,
-            "label": "Cercospora",
-            "scientificName": "Cercospora",
-            "family": ""
-          }
-        ],
-        "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 43,
-            "label": "Maple, Box elder",
-            "scientificName": "Acer",
-            "family": "Aceraceae (maple family)"
-          },
-          {
-            "category": "TREE",
-            "value": 23,
-            "label": "Beech",
-            "scientificName": "Fagus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 22,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 21,
-            "label": "Mulberry",
-            "scientificName": "Morus",
-            "family": "Moraceae (mulberry family)"
-          },
-          {
-            "category": "TREE",
-            "value": 12,
+            "value": 91,
             "label": "Pine Family with air bladders",
             "scientificName": "Pinaceae",
             "family": "Pinaceae (pine family)"
           },
           {
             "category": "TREE",
-            "value": 8,
-            "label": "Ash",
-            "scientificName": "Fraxinus",
-            "family": "Oleaceae (olive family)"
+            "value": 81,
+            "label": "Maple, Box elder",
+            "scientificName": "Acer",
+            "family": "Aceraceae (maple family)"
           },
           {
             "category": "TREE",
-            "value": 6,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
+            "value": 72,
+            "label": "Birch",
+            "scientificName": "Betula",
+            "family": "Betulaceae (birch family)"
+          },
+          {
+            "category": "MOLD",
+            "value": 71,
+            "label": "Basidiomycete/Basidiospore",
+            "scientificName": "Coprinus-type",
+            "family": "Coprinaceae/Basidiomycota"
+          },
+          {
+            "category": "MOLD",
+            "value": 70,
+            "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
+            "scientificName": "Smuts / Myxomycetes",
+            "family": ""
+          },
+          {
+            "category": "TREE",
+            "value": 44,
+            "label": "Oak",
+            "scientificName": "Quercus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 43,
+            "label": "Mulberry",
+            "scientificName": "Morus",
+            "family": "Moraceae (mulberry family)"
+          }
+        ],
+        "topTreeAllergens": [
+          {
+            "category": "TREE",
+            "value": 91,
+            "label": "Pine Family with air bladders",
+            "scientificName": "Pinaceae",
+            "family": "Pinaceae (pine family)"
+          },
+          {
+            "category": "TREE",
+            "value": 81,
+            "label": "Maple, Box elder",
+            "scientificName": "Acer",
+            "family": "Aceraceae (maple family)"
+          },
+          {
+            "category": "TREE",
+            "value": 72,
+            "label": "Birch",
+            "scientificName": "Betula",
+            "family": "Betulaceae (birch family)"
+          },
+          {
+            "category": "TREE",
+            "value": 44,
+            "label": "Oak",
+            "scientificName": "Quercus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 43,
+            "label": "Mulberry",
+            "scientificName": "Morus",
+            "family": "Moraceae (mulberry family)"
+          },
+          {
+            "category": "TREE",
+            "value": 37,
+            "label": "Beech",
+            "scientificName": "Fagus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 16,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
             "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
-            "value": 4,
-            "label": "Sweet Gum",
-            "scientificName": "Liquidambar",
-            "family": "Hamamelidaceae (witch-hazel family)"
+            "value": 6,
+            "label": "Alder",
+            "scientificName": "Alnus",
+            "family": "Betulaceae (birch family)"
           }
         ]
       }
@@ -2095,13 +2095,13 @@
       "longitude": -88.0201323,
       "shortLabel": "Greenfield, WI",
       "latestCount": {
-        "id": "5c726123-673d-4080-b6d6-a5a87ca8b318",
-        "date": "2026-05-08",
+        "id": "be668d54-fcf8-4579-bd41-921a610242e0",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 189,
+            "rawValue": 718,
             "level": "High",
             "severity": 3,
             "counted": true
@@ -2128,89 +2128,117 @@
         "topAllergens": [
           {
             "category": "TREE",
-            "value": 119,
+            "value": 531,
             "label": "Oak",
             "scientificName": "Quercus",
             "family": "Fagaceae (beech family)"
           },
           {
             "category": "TREE",
-            "value": 45,
-            "label": "Maple, Box elder",
-            "scientificName": "Acer",
-            "family": "Aceraceae (maple family)"
-          },
-          {
-            "category": "TREE",
-            "value": 13,
+            "value": 68,
             "label": "Mulberry",
             "scientificName": "Morus",
             "family": "Moraceae (mulberry family)"
           },
           {
             "category": "TREE",
-            "value": 6,
+            "value": 45,
+            "label": "Willow",
+            "scientificName": "Salix",
+            "family": "Salicaceae (willow family)"
+          },
+          {
+            "category": "TREE",
+            "value": 29,
             "label": "Pine Family with air bladders",
             "scientificName": "Pinaceae",
             "family": "Pinaceae (pine family)"
           },
           {
             "category": "TREE",
-            "value": 3,
+            "value": 26,
             "label": "Birch",
             "scientificName": "Betula",
             "family": "Betulaceae (birch family)"
           },
           {
             "category": "TREE",
+            "value": 13,
+            "label": "Walnut, Butternut",
+            "scientificName": "Juglans",
+            "family": "Juglandaceae (walnut family)"
+          },
+          {
+            "category": "TREE",
             "value": 3,
-            "label": "Basswood, Linden",
-            "scientificName": "Tilia",
-            "family": "Tiliaceae (linden family)"
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
+          },
+          {
+            "category": "TREE",
+            "value": 3,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
+            "family": "Juglandaceae (walnut family)"
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 119,
+            "value": 531,
             "label": "Oak",
             "scientificName": "Quercus",
             "family": "Fagaceae (beech family)"
           },
           {
             "category": "TREE",
-            "value": 45,
-            "label": "Maple, Box elder",
-            "scientificName": "Acer",
-            "family": "Aceraceae (maple family)"
-          },
-          {
-            "category": "TREE",
-            "value": 13,
+            "value": 68,
             "label": "Mulberry",
             "scientificName": "Morus",
             "family": "Moraceae (mulberry family)"
           },
           {
             "category": "TREE",
-            "value": 6,
+            "value": 45,
+            "label": "Willow",
+            "scientificName": "Salix",
+            "family": "Salicaceae (willow family)"
+          },
+          {
+            "category": "TREE",
+            "value": 29,
             "label": "Pine Family with air bladders",
             "scientificName": "Pinaceae",
             "family": "Pinaceae (pine family)"
           },
           {
             "category": "TREE",
-            "value": 3,
+            "value": 26,
             "label": "Birch",
             "scientificName": "Betula",
             "family": "Betulaceae (birch family)"
           },
           {
             "category": "TREE",
+            "value": 13,
+            "label": "Walnut, Butternut",
+            "scientificName": "Juglans",
+            "family": "Juglandaceae (walnut family)"
+          },
+          {
+            "category": "TREE",
             "value": 3,
-            "label": "Basswood, Linden",
-            "scientificName": "Tilia",
-            "family": "Tiliaceae (linden family)"
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
+          },
+          {
+            "category": "TREE",
+            "value": 3,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
+            "family": "Juglandaceae (walnut family)"
           }
         ]
       }
@@ -2227,25 +2255,25 @@
       "longitude": -82.2727147,
       "shortLabel": "Greenville, SC",
       "latestCount": {
-        "id": "dcc79acb-e484-46bc-b4d1-c52d915bd99d",
-        "date": "2026-05-08",
+        "id": "93ddd849-fa62-4807-b0ff-8f4fb13c7ed7",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 436,
+            "rawValue": 170,
             "level": "High",
             "severity": 3,
             "counted": true
           },
           "grass": {
-            "rawValue": 27,
+            "rawValue": 43,
             "level": "High",
             "severity": 3,
             "counted": true
           },
           "weed": {
-            "rawValue": 1,
+            "rawValue": 5,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -2260,117 +2288,117 @@
         "topAllergens": [
           {
             "category": "TREE",
-            "value": 355,
+            "value": 124,
             "label": "Pine Family with air bladders",
             "scientificName": "Pinaceae",
             "family": "Pinaceae (pine family)"
           },
           {
-            "category": "TREE",
-            "value": 29,
-            "label": "Beech",
-            "scientificName": "Fagus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
             "category": "GRASS",
-            "value": 27,
+            "value": 43,
             "label": "All identified grass pollen not counted elsewhere",
             "scientificName": "Other Grass Pollen",
             "family": ""
           },
           {
             "category": "TREE",
-            "value": 18,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 10,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 8,
-            "label": "Privet",
-            "scientificName": "Ligustrum",
-            "family": "Oleaceae"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
-          },
-          {
-            "category": "TREE",
-            "value": 3,
-            "label": "Juniper family, Cedar",
-            "scientificName": "Cupressaceae",
-            "family": "juniper family, cedar"
-          }
-        ],
-        "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 355,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
-            "category": "TREE",
-            "value": 29,
+            "value": 12,
             "label": "Beech",
             "scientificName": "Fagus",
             "family": "Fagaceae (beech family)"
           },
           {
             "category": "TREE",
-            "value": 18,
+            "value": 12,
             "label": "Oak",
             "scientificName": "Quercus",
             "family": "Fagaceae (beech family)"
           },
           {
             "category": "TREE",
-            "value": 10,
+            "value": 9,
             "label": "Walnut, Butternut",
             "scientificName": "Juglans",
             "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
-            "value": 8,
+            "value": 3,
             "label": "Privet",
             "scientificName": "Ligustrum",
             "family": "Oleaceae"
           },
           {
             "category": "TREE",
-            "value": 4,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
+            "value": 3,
+            "label": "All identified tree pollen not counted elsewhere",
+            "scientificName": "Other Tree Pollen",
+            "family": ""
+          },
+          {
+            "category": "WEED",
+            "value": 2,
+            "label": "Sheep Sorrel, Dock",
+            "scientificName": "Rumex",
+            "family": "Polygonaceae (buckwheat family)"
+          }
+        ],
+        "topTreeAllergens": [
+          {
+            "category": "TREE",
+            "value": 124,
+            "label": "Pine Family with air bladders",
+            "scientificName": "Pinaceae",
+            "family": "Pinaceae (pine family)"
+          },
+          {
+            "category": "TREE",
+            "value": 12,
+            "label": "Beech",
+            "scientificName": "Fagus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 12,
+            "label": "Oak",
+            "scientificName": "Quercus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 9,
+            "label": "Walnut, Butternut",
+            "scientificName": "Juglans",
+            "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
             "value": 3,
-            "label": "Juniper family, Cedar",
-            "scientificName": "Cupressaceae",
-            "family": "juniper family, cedar"
+            "label": "Privet",
+            "scientificName": "Ligustrum",
+            "family": "Oleaceae"
           },
           {
             "category": "TREE",
             "value": 3,
+            "label": "All identified tree pollen not counted elsewhere",
+            "scientificName": "Other Tree Pollen",
+            "family": ""
+          },
+          {
+            "category": "TREE",
+            "value": 2,
             "label": "Hickory, Pecan",
             "scientificName": "Carya",
             "family": "Juglandaceae (walnut family)"
+          },
+          {
+            "category": "TREE",
+            "value": 1,
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
           }
         ]
       }
@@ -2387,31 +2415,31 @@
       "longitude": -95.3859253,
       "shortLabel": "Houston (Station 2), TX",
       "latestCount": {
-        "id": "8d48fcfe-1598-4702-8e3b-bf41f9b7428b",
-        "date": "2026-05-08",
+        "id": "aaffc8fa-a35d-4f7e-87f9-749da8c00099",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 38,
+            "rawValue": 16,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "grass": {
-            "rawValue": 24,
+            "rawValue": 20,
             "level": "High",
             "severity": 3,
             "counted": true
           },
           "weed": {
-            "rawValue": 36,
+            "rawValue": 32,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "mold": {
-            "rawValue": 11969,
+            "rawValue": 11082,
             "level": "Moderate",
             "severity": 2,
             "counted": true
@@ -2420,37 +2448,44 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 6761,
+            "value": 7460,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 3165,
-            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
-            "scientificName": "Basidiospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 1634,
+            "value": 2041,
             "label": "Cladosporium",
             "scientificName": "Cladosporium",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 170,
+            "value": 1050,
+            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
+            "scientificName": "Basidiospores (Undifferentiated)",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 230,
             "label": "Penicillium/Aspergillus",
             "scientificName": "Penicillium / Aspergillus",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 97,
+            "value": 137,
             "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
             "scientificName": "Smuts / Myxomycetes",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 48,
+            "label": "Cercospora",
+            "scientificName": "Cercospora",
             "family": ""
           },
           {
@@ -2462,34 +2497,13 @@
           },
           {
             "category": "MOLD",
-            "value": 32,
-            "label": "Cercospora",
-            "scientificName": "Cercospora",
-            "family": ""
-          },
-          {
-            "category": "GRASS",
-            "value": 24,
-            "label": "All identified grass pollen not counted elsewhere",
-            "scientificName": "Other Grass Pollen",
+            "value": 20,
+            "label": "Curvularia",
+            "scientificName": "Curvularia",
             "family": ""
           }
         ],
         "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 16,
-            "label": "Hickory, Pecan",
-            "scientificName": "Carya",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 8,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
           {
             "category": "TREE",
             "value": 6,
@@ -2499,10 +2513,10 @@
           },
           {
             "category": "TREE",
-            "value": 4,
-            "label": "Ash",
-            "scientificName": "Fraxinus",
-            "family": "Oleaceae (olive family)"
+            "value": 6,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
+            "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
@@ -3324,25 +3338,25 @@
       "longitude": -84.5491466,
       "shortLabel": "Marietta (Atlanta), GA",
       "latestCount": {
-        "id": "3972211b-01e7-436f-a738-77fab2261b73",
-        "date": "2026-05-08",
+        "id": "7a18dcee-2000-4640-aff3-ddb76dcaa5be",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 19,
+            "rawValue": 22,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "grass": {
-            "rawValue": 8,
+            "rawValue": 13,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "weed": {
-            "rawValue": 2,
+            "rawValue": 1,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -3357,10 +3371,17 @@
         "topAllergens": [
           {
             "category": "GRASS",
-            "value": 8,
+            "value": 13,
             "label": "Grass Family, all types",
             "scientificName": "Gramineae / Poaceae",
             "family": "Gramineae / Poaceae"
+          },
+          {
+            "category": "TREE",
+            "value": 7,
+            "label": "Mulberry",
+            "scientificName": "Morus",
+            "family": "Moraceae (mulberry family)"
           },
           {
             "category": "UNIDENTIFIED",
@@ -3371,102 +3392,88 @@
           },
           {
             "category": "TREE",
-            "value": 6,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
+            "value": 5,
             "label": "Walnut, Butternut",
             "scientificName": "Juglans",
             "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
+            "value": 5,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
+            "family": "Juglandaceae (walnut family)"
+          },
+          {
+            "category": "TREE",
             "value": 2,
-            "label": "Oak",
-            "scientificName": "Quercus",
+            "label": "Beech",
+            "scientificName": "Fagus",
             "family": "Fagaceae (beech family)"
           },
           {
             "category": "TREE",
-            "value": 2,
-            "label": "Mulberry",
-            "scientificName": "Morus",
-            "family": "Moraceae (mulberry family)"
-          },
-          {
-            "category": "TREE",
             "value": 1,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
+            "label": "Sycamore, Plane-tree",
+            "scientificName": "Platanus",
+            "family": "Platanaceae (plane-tree family)"
           },
           {
             "category": "WEED",
             "value": 1,
-            "label": "Sage, Wormwood",
-            "scientificName": "Artemisia",
-            "family": "Asteraceae (aster family)"
+            "label": "Plantain",
+            "scientificName": "Plantago",
+            "family": "Plantaginaceae (plantain family)"
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 6,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 2,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 2,
+            "value": 7,
             "label": "Mulberry",
             "scientificName": "Morus",
             "family": "Moraceae (mulberry family)"
           },
           {
             "category": "TREE",
-            "value": 1,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
+            "value": 5,
+            "label": "Walnut, Butternut",
+            "scientificName": "Juglans",
+            "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
-            "value": 1,
-            "label": "Sweet Gum",
-            "scientificName": "Liquidambar",
-            "family": "Hamamelidaceae (witch-hazel family)"
+            "value": 5,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
+            "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
-            "value": 1,
-            "label": "Alder",
-            "scientificName": "Alnus",
-            "family": "Betulaceae (birch family)"
-          },
-          {
-            "category": "TREE",
-            "value": 1,
+            "value": 2,
             "label": "Beech",
             "scientificName": "Fagus",
+            "family": "Fagaceae (beech family)"
+          },
+          {
+            "category": "TREE",
+            "value": 1,
+            "label": "Sycamore, Plane-tree",
+            "scientificName": "Platanus",
+            "family": "Platanaceae (plane-tree family)"
+          },
+          {
+            "category": "TREE",
+            "value": 1,
+            "label": "Pine Family with air bladders",
+            "scientificName": "Pinaceae",
+            "family": "Pinaceae (pine family)"
+          },
+          {
+            "category": "TREE",
+            "value": 1,
+            "label": "Oak",
+            "scientificName": "Quercus",
             "family": "Fagaceae (beech family)"
           }
         ]
@@ -4341,31 +4348,31 @@
       "longitude": -97.5164276,
       "shortLabel": "Oklahoma City (Station 1), OK",
       "latestCount": {
-        "id": "4946eed5-ea47-475b-9472-ba01452b19a0",
-        "date": "2026-05-08",
+        "id": "3170a773-94d8-44b5-86fd-96a125bbee6d",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 64,
+            "rawValue": 28,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "grass": {
-            "rawValue": 69,
-            "level": "High",
-            "severity": 3,
+            "rawValue": 10,
+            "level": "Moderate",
+            "severity": 2,
             "counted": true
           },
           "weed": {
-            "rawValue": 8,
+            "rawValue": 2,
             "level": "Low",
             "severity": 1,
             "counted": true
           },
           "mold": {
-            "rawValue": 4060,
+            "rawValue": 6450,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -4374,96 +4381,82 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 1643,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 1366,
+            "value": 3752,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 282,
-            "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
-            "scientificName": "Smuts / Myxomycetes",
+            "value": 1181,
+            "label": "Cladosporium",
+            "scientificName": "Cladosporium",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 219,
+            "value": 729,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 209,
+            "value": 403,
+            "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
+            "scientificName": "Smuts / Myxomycetes",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 131,
             "label": "Alternaria",
             "scientificName": "Alternaria",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 151,
+            "value": 68,
             "label": "All other mold not identified",
             "scientificName": "Unidentified Fungi",
             "family": ""
           },
           {
-            "category": "GRASS",
-            "value": 69,
-            "label": "Grass Family, all types",
-            "scientificName": "Gramineae / Poaceae",
-            "family": "Gramineae / Poaceae"
+            "category": "MOLD",
+            "value": 63,
+            "label": "Cercospora",
+            "scientificName": "Cercospora",
+            "family": ""
           },
           {
             "category": "MOLD",
-            "value": 58,
-            "label": "Rusts: includes Puccina, Triphragmium, Gymnosporangium,Urediniospores, et al.",
-            "scientificName": "Rusts",
+            "value": 49,
+            "label": "Botrytis",
+            "scientificName": "Botrytis",
             "family": ""
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 34,
-            "label": "Hickory, Pecan",
-            "scientificName": "Carya",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 12,
-            "label": "Juniper family, Cedar",
-            "scientificName": "Cupressaceae",
-            "family": "juniper family, cedar"
-          },
-          {
-            "category": "TREE",
-            "value": 8,
-            "label": "Sycamore, Plane-tree",
-            "scientificName": "Platanus",
-            "family": "Platanaceae (plane-tree family)"
-          },
-          {
-            "category": "TREE",
-            "value": 6,
+            "value": 14,
             "label": "Mulberry",
             "scientificName": "Morus",
             "family": "Moraceae (mulberry family)"
           },
           {
             "category": "TREE",
-            "value": 2,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
+            "value": 10,
+            "label": "Hickory, Pecan",
+            "scientificName": "Carya",
             "family": "Juglandaceae (walnut family)"
+          },
+          {
+            "category": "TREE",
+            "value": 2,
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
           },
           {
             "category": "TREE",
@@ -4487,152 +4480,38 @@
       "longitude": -78.4274088,
       "shortLabel": "Olean, NY",
       "latestCount": {
-        "id": "3d23b86d-e326-479a-98dd-e7da7e86cba2",
-        "date": "2026-05-06",
+        "id": "5b15157f-c821-4542-9cba-24aea66d7513",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 59,
-            "level": "Moderate",
-            "severity": 2,
-            "counted": true
+            "rawValue": null,
+            "level": "Not Counted",
+            "severity": 0,
+            "counted": false
           },
           "grass": {
-            "rawValue": 8,
-            "level": "Moderate",
-            "severity": 2,
-            "counted": true
+            "rawValue": null,
+            "level": "Not Counted",
+            "severity": 0,
+            "counted": false
           },
           "weed": {
-            "rawValue": 0,
-            "level": "Not Present",
+            "rawValue": null,
+            "level": "Not Counted",
             "severity": 0,
-            "counted": true
+            "counted": false
           },
           "mold": {
-            "rawValue": 2202,
-            "level": "Low",
-            "severity": 1,
-            "counted": true
+            "rawValue": null,
+            "level": "Not Counted",
+            "severity": 0,
+            "counted": false
           }
         },
-        "topAllergens": [
-          {
-            "category": "MOLD",
-            "value": 891,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 708,
-            "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
-            "scientificName": "Ascospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 236,
-            "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
-            "scientificName": "Basidiospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 236,
-            "label": "Any identified fungi not counted elsewhere",
-            "scientificName": "Other Fungi",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 92,
-            "label": "Alternaria",
-            "scientificName": "Alternaria",
-            "family": ""
-          },
-          {
-            "category": "TREE",
-            "value": 26,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
-          },
-          {
-            "category": "MOLD",
-            "value": 26,
-            "label": "Rusts: includes Puccina, Triphragmium, Gymnosporangium,Urediniospores, et al.",
-            "scientificName": "Rusts",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 13,
-            "label": "Epicoccum",
-            "scientificName": "Epicoccum",
-            "family": ""
-          }
-        ],
-        "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 26,
-            "label": "Birch",
-            "scientificName": "Betula",
-            "family": "Betulaceae (birch family)"
-          },
-          {
-            "category": "TREE",
-            "value": 8,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 5,
-            "label": "Maple, Box elder",
-            "scientificName": "Acer",
-            "family": "Aceraceae (maple family)"
-          },
-          {
-            "category": "TREE",
-            "value": 5,
-            "label": "Hackberry",
-            "scientificName": "Celtis",
-            "family": "Ulmaceae"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Ash",
-            "scientificName": "Fraxinus",
-            "family": "Oleaceae (olive family)"
-          },
-          {
-            "category": "TREE",
-            "value": 3,
-            "label": "Mulberry",
-            "scientificName": "Morus",
-            "family": "Moraceae (mulberry family)"
-          }
-        ]
+        "topAllergens": [],
+        "topTreeAllergens": []
       }
     },
     {
@@ -5091,25 +4970,25 @@
       "longitude": -122.68171,
       "shortLabel": "Portland, OR",
       "latestCount": {
-        "id": "9ddbc202-e343-4bb3-94bd-33a1b88e82a2",
-        "date": "2026-05-05",
+        "id": "bfd5d679-616a-4dc9-9dc4-5fa4e866a83f",
+        "date": "2026-05-08",
         "comment": "",
-        "weatherNotes": "High in the 60s, low in the 50s overnight, cooler than previous. Sunny and dry.",
+        "weatherNotes": "High around 70, lows in the 50s overnight, sunny and dry",
         "categories": {
           "tree": {
-            "rawValue": 59,
+            "rawValue": 29,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "grass": {
-            "rawValue": 4,
-            "level": "Low",
-            "severity": 1,
+            "rawValue": 12,
+            "level": "Moderate",
+            "severity": 2,
             "counted": true
           },
           "weed": {
-            "rawValue": 2,
+            "rawValue": 4,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -5123,73 +5002,22 @@
         },
         "topAllergens": [
           {
-            "category": "TREE",
-            "value": 35,
-            "label": "Ash",
-            "scientificName": "Fraxinus",
-            "family": "Oleaceae (olive family)"
-          },
-          {
-            "category": "TREE",
-            "value": 12,
-            "label": "Willow",
-            "scientificName": "Salix",
-            "family": "Salicaceae (willow family)"
-          },
-          {
-            "category": "TREE",
-            "value": 4,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
             "category": "GRASS",
-            "value": 4,
+            "value": 12,
             "label": "Grass Family, all types",
             "scientificName": "Gramineae / Poaceae",
             "family": "Gramineae / Poaceae"
           },
           {
             "category": "TREE",
-            "value": 3,
-            "label": "Juniper family, Cedar",
-            "scientificName": "Cupressaceae",
-            "family": "juniper family, cedar"
-          },
-          {
-            "category": "TREE",
-            "value": 3,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 1,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "WEED",
-            "value": 1,
-            "label": "Sheep Sorrel, Dock",
-            "scientificName": "Rumex",
-            "family": "Polygonaceae (buckwheat family)"
-          }
-        ],
-        "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 35,
+            "value": 10,
             "label": "Ash",
             "scientificName": "Fraxinus",
             "family": "Oleaceae (olive family)"
           },
           {
             "category": "TREE",
-            "value": 12,
+            "value": 5,
             "label": "Willow",
             "scientificName": "Salix",
             "family": "Salicaceae (willow family)"
@@ -5197,20 +5025,78 @@
           {
             "category": "TREE",
             "value": 4,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
-          },
-          {
-            "category": "TREE",
-            "value": 3,
             "label": "Juniper family, Cedar",
             "scientificName": "Cupressaceae",
             "family": "juniper family, cedar"
           },
           {
             "category": "TREE",
-            "value": 3,
+            "value": 4,
+            "label": "Privet",
+            "scientificName": "Ligustrum",
+            "family": "Oleaceae"
+          },
+          {
+            "category": "WEED",
+            "value": 2,
+            "label": "All identified weed pollen not counted elsewhere",
+            "scientificName": "Other Weed Pollen",
+            "family": ""
+          },
+          {
+            "category": "TREE",
+            "value": 2,
+            "label": "Pine Family with air bladders",
+            "scientificName": "Pinaceae",
+            "family": "Pinaceae (pine family)"
+          },
+          {
+            "category": "TREE",
+            "value": 2,
+            "label": "Oak",
+            "scientificName": "Quercus",
+            "family": "Fagaceae (beech family)"
+          }
+        ],
+        "topTreeAllergens": [
+          {
+            "category": "TREE",
+            "value": 10,
+            "label": "Ash",
+            "scientificName": "Fraxinus",
+            "family": "Oleaceae (olive family)"
+          },
+          {
+            "category": "TREE",
+            "value": 5,
+            "label": "Willow",
+            "scientificName": "Salix",
+            "family": "Salicaceae (willow family)"
+          },
+          {
+            "category": "TREE",
+            "value": 4,
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
+          },
+          {
+            "category": "TREE",
+            "value": 4,
+            "label": "Privet",
+            "scientificName": "Ligustrum",
+            "family": "Oleaceae"
+          },
+          {
+            "category": "TREE",
+            "value": 2,
+            "label": "Pine Family with air bladders",
+            "scientificName": "Pinaceae",
+            "family": "Pinaceae (pine family)"
+          },
+          {
+            "category": "TREE",
+            "value": 2,
             "label": "Oak",
             "scientificName": "Quercus",
             "family": "Fagaceae (beech family)"
@@ -5218,16 +5104,16 @@
           {
             "category": "TREE",
             "value": 1,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
+            "label": "Maple, Box elder",
+            "scientificName": "Acer",
+            "family": "Aceraceae (maple family)"
           },
           {
             "category": "TREE",
             "value": 1,
-            "label": "Hornbeam/Hop hornbeam",
-            "scientificName": "Carpinus/Ostrya",
-            "family": "Betulaceae"
+            "label": "Beech",
+            "scientificName": "Fagus",
+            "family": "Fagaceae (beech family)"
           }
         ]
       }
@@ -5890,31 +5776,31 @@
       "longitude": -121.9356895,
       "shortLabel": "San Jose, CA",
       "latestCount": {
-        "id": "74c90423-3f1a-4df1-a2e9-350af099680c",
-        "date": "2026-05-03",
+        "id": "a7a98a22-c701-421e-a337-628c5c6478fe",
+        "date": "2026-05-10",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 40,
+            "rawValue": 6,
+            "level": "Low",
+            "severity": 1,
+            "counted": true
+          },
+          "grass": {
+            "rawValue": 7,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
-          "grass": {
+          "weed": {
             "rawValue": 2,
             "level": "Low",
             "severity": 1,
             "counted": true
           },
-          "weed": {
-            "rawValue": 0,
-            "level": "Not Present",
-            "severity": 0,
-            "counted": true
-          },
           "mold": {
-            "rawValue": 5106,
+            "rawValue": 992,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -5923,52 +5809,31 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 2805,
-            "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
-            "scientificName": "Ascospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 1942,
+            "value": 696,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 216,
+            "value": 146,
             "label": "Cladosporium",
             "scientificName": "Cladosporium",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 65,
-            "label": "Periconia",
-            "scientificName": "Periconia",
+            "value": 81,
+            "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
+            "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 32,
-            "label": "Penicillium/Aspergillus",
-            "scientificName": "Penicillium / Aspergillus",
+            "value": 27,
+            "label": "Any identified fungi not counted elsewhere",
+            "scientificName": "Other Fungi",
             "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 22,
-            "label": "Basidiomycete/Basidiospore",
-            "scientificName": "Ganoderma",
-            "family": "Polyporaceae/Basidiomycota"
-          },
-          {
-            "category": "TREE",
-            "value": 21,
-            "label": "Olive",
-            "scientificName": "Olea",
-            "family": "Oleaceae (olive family)"
           },
           {
             "category": "MOLD",
@@ -5976,43 +5841,50 @@
             "label": "Rusts: includes Puccina, Triphragmium, Gymnosporangium,Urediniospores, et al.",
             "scientificName": "Rusts",
             "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 11,
+            "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
+            "scientificName": "Smuts / Myxomycetes",
+            "family": ""
+          },
+          {
+            "category": "GRASS",
+            "value": 7,
+            "label": "Grass Family, all types",
+            "scientificName": "Gramineae / Poaceae",
+            "family": "Gramineae / Poaceae"
+          },
+          {
+            "category": "MOLD",
+            "value": 5,
+            "label": "Basidiomycete/Basidiospore",
+            "scientificName": "Ganoderma",
+            "family": "Polyporaceae/Basidiomycota"
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 21,
-            "label": "Olive",
-            "scientificName": "Olea",
-            "family": "Oleaceae (olive family)"
+            "value": 2,
+            "label": "Juniper family, Cedar",
+            "scientificName": "Cupressaceae",
+            "family": "juniper family, cedar"
           },
           {
             "category": "TREE",
-            "value": 7,
+            "value": 2,
             "label": "Pine Family with air bladders",
             "scientificName": "Pinaceae",
             "family": "Pinaceae (pine family)"
           },
           {
             "category": "TREE",
-            "value": 5,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 5,
+            "value": 2,
             "label": "All identified tree pollen not counted elsewhere",
             "scientificName": "Other Tree Pollen",
             "family": ""
-          },
-          {
-            "category": "TREE",
-            "value": 2,
-            "label": "Mulberry",
-            "scientificName": "Morus",
-            "family": "Moraceae (mulberry family)"
           }
         ]
       }
@@ -6189,15 +6061,15 @@
       "longitude": -66.1057355,
       "shortLabel": "San Juan, PR",
       "latestCount": {
-        "id": "5a3effe4-24c3-45a6-b453-792a4540107a",
-        "date": "2026-05-09",
+        "id": "c5fe5621-d885-4de3-b00f-4ce00fe46b0e",
+        "date": "2026-05-11",
         "comment": "Presencia de holl\u00edn y polvo fugitivo. Presence of soot and fugitive dust. ",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 92,
-            "level": "Moderate",
-            "severity": 2,
+            "rawValue": 215,
+            "level": "High",
+            "severity": 3,
             "counted": true
           },
           "grass": {
@@ -6213,7 +6085,7 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 5910,
+            "rawValue": 2762,
             "level": "Low",
             "severity": 1,
             "counted": true
@@ -6222,44 +6094,51 @@
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 3509,
+            "value": 1130,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 862,
-            "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
-            "scientificName": "Ascospores (Undifferentiated)",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 523,
+            "value": 431,
             "label": "Basidiomycete/Basidiospore",
             "scientificName": "Ganoderma",
             "family": "Polyporaceae/Basidiomycota"
           },
           {
             "category": "MOLD",
-            "value": 492,
-            "label": "Penicillium/Aspergillus",
-            "scientificName": "Penicillium / Aspergillus",
+            "value": 339,
+            "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
+            "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 154,
+            "value": 308,
             "label": "Cladosporium",
             "scientificName": "Cladosporium",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 154,
+            "value": 277,
             "label": "Any identified fungi not counted elsewhere",
             "scientificName": "Other Fungi",
+            "family": ""
+          },
+          {
+            "category": "TREE",
+            "value": 215,
+            "label": "All identified tree pollen not counted elsewhere",
+            "scientificName": "Other Tree Pollen",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 123,
+            "label": "Curvularia",
+            "scientificName": "Curvularia",
             "family": ""
           },
           {
@@ -6268,19 +6147,12 @@
             "label": "Basidiomycete/Basidiospore",
             "scientificName": "Coprinus-type",
             "family": "Coprinaceae/Basidiomycota"
-          },
-          {
-            "category": "TREE",
-            "value": 92,
-            "label": "All identified tree pollen not counted elsewhere",
-            "scientificName": "Other Tree Pollen",
-            "family": ""
           }
         ],
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 92,
+            "value": 215,
             "label": "All identified tree pollen not counted elsewhere",
             "scientificName": "Other Tree Pollen",
             "family": ""
@@ -6774,21 +6646,21 @@
       "longitude": -90.3360865,
       "shortLabel": "St. Louis, MO",
       "latestCount": {
-        "id": "f1736c1f-8f5d-453d-9b9e-d951f650e4d8",
-        "date": "2026-05-08",
+        "id": "34a51613-dc70-41ea-a23d-8094d169a274",
+        "date": "2026-05-11",
         "comment": "",
         "weatherNotes": "",
         "categories": {
           "tree": {
-            "rawValue": 42,
+            "rawValue": 18,
             "level": "Moderate",
             "severity": 2,
             "counted": true
           },
           "grass": {
-            "rawValue": 20,
-            "level": "High",
-            "severity": 3,
+            "rawValue": 4,
+            "level": "Low",
+            "severity": 1,
             "counted": true
           },
           "weed": {
@@ -6798,65 +6670,65 @@
             "counted": false
           },
           "mold": {
-            "rawValue": 3786,
-            "level": "Low",
-            "severity": 1,
+            "rawValue": 7268,
+            "level": "Moderate",
+            "severity": 2,
             "counted": true
           }
         },
         "topAllergens": [
           {
             "category": "MOLD",
-            "value": 1433,
+            "value": 4478,
             "label": "Ascospores: includes Leptosphaeria, Venturia, Ascobolus, Diatrypaceae, Pleospora, Xylaria, Chaetomium, Sporomiella, Claviceps, Ascomycete, et al.",
             "scientificName": "Ascospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 947,
-            "label": "Cladosporium",
-            "scientificName": "Cladosporium",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 665,
+            "value": 1305,
             "label": "Basidiospores: includes Coprinus, Agrocybe, Agaricus, Inocybe, Laccaria, Ganoderma, et al.",
             "scientificName": "Basidiospores (Undifferentiated)",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 281,
+            "value": 563,
+            "label": "Cladosporium",
+            "scientificName": "Cladosporium",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 435,
             "label": "Penicillium/Aspergillus",
             "scientificName": "Penicillium / Aspergillus",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 179,
+            "value": 256,
             "label": "Smuts/Myxomycetes: includes Fuligo, grass smut, Urocystis, Ustilago, Tilletia, et al.",
             "scientificName": "Smuts / Myxomycetes",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 102,
-            "label": "Epicoccum",
-            "scientificName": "Epicoccum",
-            "family": ""
-          },
-          {
-            "category": "MOLD",
-            "value": 102,
+            "value": 179,
             "label": "All other mold not identified",
             "scientificName": "Unidentified Fungi",
             "family": ""
           },
           {
             "category": "MOLD",
-            "value": 51,
+            "value": 26,
+            "label": "Cercospora",
+            "scientificName": "Cercospora",
+            "family": ""
+          },
+          {
+            "category": "MOLD",
+            "value": 26,
             "label": "Alternaria",
             "scientificName": "Alternaria",
             "family": ""
@@ -6865,42 +6737,28 @@
         "topTreeAllergens": [
           {
             "category": "TREE",
-            "value": 20,
-            "label": "Walnut, Butternut",
-            "scientificName": "Juglans",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 5,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          },
-          {
-            "category": "TREE",
-            "value": 5,
+            "value": 12,
             "label": "Mulberry",
             "scientificName": "Morus",
             "family": "Moraceae (mulberry family)"
           },
           {
             "category": "TREE",
-            "value": 4,
-            "label": "Pine Family with air bladders",
-            "scientificName": "Pinaceae",
-            "family": "Pinaceae (pine family)"
+            "value": 2,
+            "label": "Walnut, Butternut",
+            "scientificName": "Juglans",
+            "family": "Juglandaceae (walnut family)"
           },
           {
             "category": "TREE",
-            "value": 4,
-            "label": "Ash",
-            "scientificName": "Fraxinus",
-            "family": "Oleaceae (olive family)"
+            "value": 2,
+            "label": "Sycamore, Plane-tree",
+            "scientificName": "Platanus",
+            "family": "Platanaceae (plane-tree family)"
           },
           {
             "category": "TREE",
-            "value": 4,
+            "value": 2,
             "label": "Willow",
             "scientificName": "Salix",
             "family": "Salicaceae (willow family)"
@@ -7647,22 +7505,22 @@
       "longitude": -97.19877009999999,
       "shortLabel": "Waco (Station 1), TX",
       "latestCount": {
-        "id": "893727f2-e69e-4c40-898f-2b1610abaff7",
-        "date": "2026-05-08",
+        "id": "60f6ea39-5a83-4a17-b385-ba8ddbaa49bf",
+        "date": "2026-05-11",
         "comment": "",
-        "weatherNotes": "",
+        "weatherNotes": "Rain",
         "categories": {
           "tree": {
-            "rawValue": 1,
-            "level": "Low",
-            "severity": 1,
-            "counted": true
+            "rawValue": null,
+            "level": "Not Counted",
+            "severity": 0,
+            "counted": false
           },
           "grass": {
-            "rawValue": 7,
-            "level": "Moderate",
-            "severity": 2,
-            "counted": true
+            "rawValue": null,
+            "level": "Not Counted",
+            "severity": 0,
+            "counted": false
           },
           "weed": {
             "rawValue": null,
@@ -7677,45 +7535,8 @@
             "counted": false
           }
         },
-        "topAllergens": [
-          {
-            "category": "GRASS",
-            "value": 7,
-            "label": "Grass Family, all types",
-            "scientificName": "Gramineae / Poaceae",
-            "family": "Gramineae / Poaceae"
-          },
-          {
-            "category": "TREE",
-            "value": 2,
-            "label": "Hickory, Pecan",
-            "scientificName": "Carya",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 1,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          }
-        ],
-        "topTreeAllergens": [
-          {
-            "category": "TREE",
-            "value": 2,
-            "label": "Hickory, Pecan",
-            "scientificName": "Carya",
-            "family": "Juglandaceae (walnut family)"
-          },
-          {
-            "category": "TREE",
-            "value": 1,
-            "label": "Oak",
-            "scientificName": "Quercus",
-            "family": "Fagaceae (beech family)"
-          }
-        ]
+        "topAllergens": [],
+        "topTreeAllergens": []
       }
     },
     {
