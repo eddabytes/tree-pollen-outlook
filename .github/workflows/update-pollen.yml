@@ -2,8 +2,6 @@ name: Update NAB count data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 13 * * *"
 
 permissions:
   contents: write
